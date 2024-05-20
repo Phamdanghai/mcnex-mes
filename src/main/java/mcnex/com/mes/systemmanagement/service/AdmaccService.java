@@ -9,4 +9,6 @@ import java.util.List;
 public interface AdmaccService {
     List<AccountResponse> getAllUser();
 
+    AccountResponse getAccByUser_id(String user_id);
+
 }
